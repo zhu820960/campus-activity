@@ -1,0 +1,146 @@
+{
+  "ArrowLeft": {
+    "source": "ic_public_back.svg",
+    "rotation": 0
+  },
+  "ArrowRight": {
+    "source": "ic_public_back.svg",
+    "rotation": 180
+  },
+  "Bell": {
+    "source": "ic_public_ring.svg",
+    "rotation": 0
+  },
+  "Bot": {
+    "source": "ic_public_quickstart.svg",
+    "rotation": 0
+  },
+  "CalendarDays": {
+    "source": "ic_public_calendar.svg",
+    "rotation": 0
+  },
+  "CalendarPlus": {
+    "source": "ic_public_calendar.svg",
+    "rotation": 0
+  },
+  "CheckCircle2": {
+    "source": "ic_public_ok.svg",
+    "rotation": 0
+  },
+  "ChevronDown": {
+    "source": "ic_public_arrow_right.svg",
+    "rotation": 90
+  },
+  "CircleHelp": {
+    "source": "ic_public_help.svg",
+    "rotation": 0
+  },
+  "ClipboardCheck": {
+    "source": "ic_public_todo.svg",
+    "rotation": 0
+  },
+  "ClipboardList": {
+    "source": "ic_public_notes.svg",
+    "rotation": 0
+  },
+  "Copy": {
+    "source": "ic_public_copy.svg",
+    "rotation": 0
+  },
+  "Download": {
+    "source": "ic_public_download.svg",
+    "rotation": 0
+  },
+  "ImagePlus": {
+    "source": "ic_public_picture.svg",
+    "rotation": 0
+  },
+  "LayoutDashboard": {
+    "source": "ic_public_view_grid.svg",
+    "rotation": 0
+  },
+  "LogOut": {
+    "source": "ic_public_quit.svg",
+    "rotation": 0
+  },
+  "MapPin": {
+    "source": "ic_public_gps.svg",
+    "rotation": 0
+  },
+  "Megaphone": {
+    "source": "ic_public_sound.svg",
+    "rotation": 0
+  },
+  "QrCode": {
+    "source": "ic_public_code.svg",
+    "rotation": 0
+  },
+  "RefreshCw": {
+    "source": "ic_public_refresh.svg",
+    "rotation": 0
+  },
+  "Save": {
+    "source": "ic_public_save.svg",
+    "rotation": 0
+  },
+  "ScrollText": {
+    "source": "ic_public_history.svg",
+    "rotation": 0
+  },
+  "ShieldCheck": {
+    "source": "ic_public_security.svg",
+    "rotation": 0
+  },
+  "TicketCheck": {
+    "source": "ic_public_cards.svg",
+    "rotation": 0
+  },
+  "Trash2": {
+    "source": "ic_public_delete.svg",
+    "rotation": 0
+  },
+  "Unlink2": {
+    "source": "ic_public_unlock.svg",
+    "rotation": 0
+  },
+  "Users": {
+    "source": "ic_public_contacts_group.svg",
+    "rotation": 0
+  },
+  "UsersRound": {
+    "source": "ic_public_contacts_group.svg",
+    "rotation": 0
+  },
+  "Search": {
+    "source": "ic_public_search.svg",
+    "rotation": 0
+  },
+  "Close": {
+    "source": "ic_public_close.svg",
+    "rotation": 0
+  },
+  "Scan": {
+    "source": "ic_public_scan.svg",
+    "rotation": 0
+  },
+  "Clock": {
+    "source": "ic_public_clock.svg",
+    "rotation": 0
+  },
+  "Home": {
+    "source": "ic_public_home.svg",
+    "rotation": 0
+  },
+  "Person": {
+    "source": "ic_public_contacts.svg",
+    "rotation": 0
+  },
+  "List": {
+    "source": "ic_public_view_list.svg",
+    "rotation": 0
+  },
+  "Check": {
+    "source": "ic_public_ok.svg",
+    "rotation": 0
+  }
+}
