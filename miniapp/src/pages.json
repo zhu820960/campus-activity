@@ -1,0 +1,32 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "活动大厅", "enablePullDownRefresh": true } },
+    { "path": "pages/activities/index", "style": { "navigationBarTitleText": "活动列表", "enablePullDownRefresh": true } },
+    { "path": "pages/my/index", "style": { "navigationBarTitleText": "我的", "enablePullDownRefresh": true } },
+    { "path": "pages/detail/index", "style": { "navigationBarTitleText": "活动详情" } },
+    { "path": "pages/scan/index", "style": { "navigationBarTitleText": "扫码签到" } },
+    { "path": "pages/login/index", "style": { "navigationBarTitleText": "账号绑定" } },
+    { "path": "pages/appeal/index", "style": { "navigationBarTitleText": "账号申诉" } },
+    { "path": "pages/messages/index", "style": { "navigationBarTitleText": "消息中心", "enablePullDownRefresh": true } },
+    { "path": "pages/organizer/index", "style": { "navigationBarTitleText": "我的活动", "enablePullDownRefresh": true } },
+    { "path": "pages/organizer/edit", "style": { "navigationBarTitleText": "编辑活动" } },
+    { "path": "pages/organizer/detail", "style": { "navigationBarTitleText": "活动管理", "enablePullDownRefresh": true } }
+  ],
+  "tabBar": {
+    "color": "#758780",
+    "selectedColor": "#147f74",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "活动大厅", "iconPath": "static/icons/tab-hall-off.png", "selectedIconPath": "static/icons/tab-hall-on.png" },
+      { "pagePath": "pages/activities/index", "text": "活动列表", "iconPath": "static/icons/tab-activities-off.png", "selectedIconPath": "static/icons/tab-activities-on.png" },
+      { "pagePath": "pages/my/index", "text": "我的", "iconPath": "static/icons/tab-my-off.png", "selectedIconPath": "static/icons/tab-my-on.png" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园活动",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f3f6f4"
+  }
+}

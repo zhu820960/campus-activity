@@ -1,0 +1,19 @@
+backend/target/
+backend/campus_activity.mv.db
+backend/campus_activity.trace.db
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+miniapp/node_modules/
+miniapp/dist/
+.env
+.env.local
+.env.*.local
+backups/
+uploads/
+backend/uploads/
+*.log
+
+# Local H2 database files
+backend/**/*.mv.db
+backend/**/*.trace.db
