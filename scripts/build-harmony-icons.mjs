@@ -59,7 +59,7 @@ try {
   for(const [name,value] of Object.entries(mini)) {
     const [symbol,rotation=0]=Array.isArray(value)?value:[value]
     const color=name.endsWith('-off')?'#758780':name==='logout'?'#a34538':'#147f74'
-    await page.setContent(`<style>html,body{margin:0;background:transparent}svg{width:96px;height:96px;display:block;color:${color};transform:rotate(${rotation}deg)}</style>${rendered[symbol]}`)
+    await page.setContent(`<style>html,body{margin:0;background:transparent}body>svg{width:96px;height:96px;display:block;color:${color};transform:rotate(${rotation}deg)}</style>${rendered[symbol]}`)
     await page.screenshot({path:resolve(root,'miniapp/src/static/icons',name+'.png'),omitBackground:true})
     manifest.miniapp[name]={symbol,color,rotation,source:definitions[symbol][0]}
   }
