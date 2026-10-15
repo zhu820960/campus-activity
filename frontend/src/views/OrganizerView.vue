@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
-import { ArrowRight, Bell, CalendarPlus, ClipboardList, QrCode } from '@lucide/vue'
+import { ArrowRight, Bell, CalendarPlus, ClipboardList, QrCode } from '../icons'
 import { api } from '../api'
 import { dateTime, statusLabel } from '../format'
 

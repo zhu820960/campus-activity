@@ -2,7 +2,7 @@
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import QRCode from 'qrcode'
-import { ArrowLeft, CheckCircle2, CircleHelp, QrCode, RefreshCw, Users } from '@lucide/vue'
+import { ArrowLeft, CheckCircle2, CircleHelp, QrCode, RefreshCw, Users } from '../icons'
 import { api } from '../api'
 import { buildCheckinPayload } from '../checkinPayload'
 import { dateTime, personInitial } from '../format'

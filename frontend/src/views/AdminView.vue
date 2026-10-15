@@ -1,7 +1,7 @@
 <script setup>
 import { computed, nextTick, onMounted, onUnmounted, reactive, ref, watch } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
-import { ArrowRight, CalendarDays, CalendarPlus, ClipboardCheck, MapPin, QrCode, RefreshCw, ShieldCheck, TicketCheck, Unlink2, UsersRound } from '@lucide/vue'
+import { ArrowRight, CalendarDays, CalendarPlus, ClipboardCheck, MapPin, QrCode, RefreshCw, ShieldCheck, TicketCheck, Unlink2, UsersRound } from '../icons'
 import { api } from '../api'
 import { activityPhase, phaseLabel } from '../activityPhase'
 import { dateTime, personInitial } from '../format'

@@ -1,7 +1,7 @@
 <script setup>
 import { computed, onMounted, onUnmounted, reactive, ref, watch } from 'vue'
 import { RouterLink, useRoute, useRouter } from 'vue-router'
-import { ArrowLeft, Bot, ChevronDown, Copy, ImagePlus, MapPin, Save, Trash2 } from '@lucide/vue'
+import { ArrowLeft, Bot, ChevronDown, Copy, ImagePlus, MapPin, Save, Trash2 } from '../icons'
 import { api } from '../api'
 import ActivityMap from '../components/ActivityMap.vue'
 import { chinaDateTime, organizerQuickSchedule, organizerQuickSettings } from '../organizerSchedule'

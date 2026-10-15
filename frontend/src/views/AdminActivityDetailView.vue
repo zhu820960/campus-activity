@@ -1,7 +1,7 @@
 <script setup>
 import { computed, onMounted, onUnmounted, reactive, ref } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
-import { ArrowLeft, Download, QrCode, RefreshCw } from '@lucide/vue'
+import { ArrowLeft, Download, QrCode, RefreshCw } from '../icons'
 import { api, apiFile } from '../api'
 import { dateTime, personInitial, statusLabel } from '../format'
 import { user } from '../session'

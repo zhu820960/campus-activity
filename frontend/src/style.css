@@ -792,3 +792,5 @@ input::placeholder,textarea::placeholder{color:#87998e}
 .schedule-presets { margin:8px 0 12px; }
 .schedule-presets button { padding:5px 10px; }
 .schedule-editor .schedule-block > .schedule-result { padding:8px 12px; margin-top:10px; background:#f5f8f6; font-size:12px; }
+.harmony-icon { display:inline-block; vertical-align:middle; flex-shrink:0; }
+.notification-detail-link { display:inline-flex; align-items:center; gap:4px; }

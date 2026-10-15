@@ -1,7 +1,7 @@
 <script setup>
 import { reactive, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { ArrowRight } from '@lucide/vue'
+import { ArrowRight } from '../icons'
 import { api } from '../api'
 import { homePath, setUser } from '../session'
 

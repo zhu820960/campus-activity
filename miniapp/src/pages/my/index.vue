@@ -196,7 +196,7 @@ onPullDownRefresh(load)
 
       <view class="record-section">
         <view class="section-head"><text class="ui-section-title">签到记录</text><text class="section-count">{{ checked.length }} 条</text></view>
-        <view v-if="checked.length" class="participation-search"><image src="/static/icons/search.png" mode="aspectFit" /><input v-model="checkedQuery" type="text" placeholder="搜索已签到活动" confirm-type="search" /><button v-if="checkedQuery" aria-label="清除搜索" @tap="checkedQuery = ''">×</button></view>
+        <view v-if="checked.length" class="participation-search"><image src="/static/icons/search.png" mode="aspectFit" /><input v-model="checkedQuery" type="text" placeholder="搜索已签到活动" confirm-type="search" /><button v-if="checkedQuery" aria-label="清除搜索" @tap="checkedQuery = '''"><image class="clear-search-icon" src="/static/icons/close.png" mode="aspectFit" /></button></view>
         <button v-if="checked.length" class="avatar-action participation-export" :disabled="exportingPdf || !visibleChecked.length" @tap="exportPersonalPdf">{{ exportingPdf ? '正在生成...' : '导出个人记录 PDF' }}</button>
         <view v-if="!checked.length" class="ui-empty"><text class="ui-empty-title">暂无签到记录</text></view>
         <view v-else-if="!visibleChecked.length" class="ui-empty"><text class="ui-empty-title">没有找到已签到活动</text></view>
@@ -249,4 +249,5 @@ onPullDownRefresh(load)
 .organizer-access input { box-sizing: border-box; height: 43px; margin-top: 10px; padding: 0 11px; border: 1px solid #dfe7e2; border-radius: 6px; font-size: 14px; }
 .organizer-access button { width: 100%; margin-top: 14px; }
 .activation-error { display: block; margin-top: 10px; color: #a34538; font-size: 12px; }
+.participation-search .clear-search-icon { width:16px; height:16px; margin:0; }
 </style>

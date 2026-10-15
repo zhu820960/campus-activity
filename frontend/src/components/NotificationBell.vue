@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, onUnmounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { Bell } from '@lucide/vue'
+import { ArrowRight, Bell } from '../icons'
 import { api } from '../api'
 import { dateTime } from '../format'
 
@@ -65,7 +65,7 @@ onUnmounted(() => {
       <p v-if="error" class="message error" role="alert">通知加载失败：{{ error }}</p>
       <p v-if="loading && !rows.length" class="muted-text">正在加载…</p>
       <p v-else-if="!rows.length && !error" class="muted-text">暂无通知</p>
-      <button v-for="row in rows" :key="row.id" type="button" class="notification-item" :class="{ unread: !row.readAt }" :disabled="reading !== null" @click="follow(row)"><strong>{{ row.title }}<span v-if="!row.readAt"> · 未读</span></strong><span>{{ row.body }}</span><time>{{ dateTime(row.createdAt) }}</time><small>查看详情 →</small></button>
+      <button v-for="row in rows" :key="row.id" type="button" class="notification-item" :class="{ unread: !row.readAt }" :disabled="reading !== null" @click="follow(row)"><strong>{{ row.title }}<span v-if="!row.readAt"> · 未读</span></strong><span>{{ row.body }}</span><time>{{ dateTime(row.createdAt) }}</time><small class="notification-detail-link">查看详情 <ArrowRight :size="12" /></small></button>
       <p class="notification-footnote">最近 100 条通知；已读不代表业务已处理。</p>
     </section>
   </div>

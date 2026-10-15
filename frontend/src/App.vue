@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
-import { Bell, CalendarDays, ClipboardCheck, LayoutDashboard, Megaphone, QrCode, ScrollText, ShieldCheck, TicketCheck, Users } from '@lucide/vue'
+import { Bell, CalendarDays, ClipboardCheck, LayoutDashboard, Megaphone, QrCode, ScrollText, ShieldCheck, TicketCheck, Users } from './icons'
 import { api } from './api'
 import UserCenter from './components/UserCenter.vue'
 import NotificationBell from './components/NotificationBell.vue'

@@ -5,7 +5,7 @@ const root = resolve(import.meta.dirname, '..')
 const source = resolve(root, 'HarmonyOS_Icons')
 const definitions = {
   ArrowLeft: ['ic_public_back.svg'], ArrowRight: ['ic_public_back.svg', 180],
-  Bell: ['ic_public_ring.svg'], Bot: ['ic_public_quickstart.svg'],
+  Bell: ['ic_public_ring.svg'], Bot: ['ic_public_comments.svg'],
   CalendarDays: ['ic_public_calendar.svg'], CalendarPlus: ['ic_public_calendar.svg'],
   CheckCircle2: ['ic_public_ok.svg'], ChevronDown: ['ic_public_arrow_right.svg', 90],
   CircleHelp: ['ic_public_help.svg'], ClipboardCheck: ['ic_public_todo.svg'],

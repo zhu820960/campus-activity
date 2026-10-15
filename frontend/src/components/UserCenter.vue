@@ -1,7 +1,7 @@
 <script setup>
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { RouterLink } from 'vue-router'
-import { ChevronDown, LogOut } from '@lucide/vue'
+import { ChevronDown, LogOut } from '../icons'
 
 const props = defineProps({ account: { type: Object, required: true } })
 const emit = defineEmits(['logout'])
